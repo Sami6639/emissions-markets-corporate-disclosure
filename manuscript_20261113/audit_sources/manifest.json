@@ -1,0 +1,44 @@
+[
+  {
+    "id": 10842110,
+    "filename": "2. Create PM Mass (Stack-week).do",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842110?format=original",
+    "bytes": 12372,
+    "sha256": "35ca06d59f9955a8aebc92dc5dfb4d604f0180593b560c085895b43829f984b8"
+  },
+  {
+    "id": 10842095,
+    "filename": "3a. Create PM Mass (Stack-Month, Plant-Month).do",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842095?format=original",
+    "bytes": 13396,
+    "sha256": "0a2987cff5e40d3e156c15b4f2a136e78544496e7d02a657659c35ff17212638"
+  },
+  {
+    "id": 10842124,
+    "filename": "CEMS_2018-12-31 to 2021-04-03_StackDay_Balanced_HistCFs_Master337s_3sample2trunc.dta",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842124?format=original",
+    "bytes": 70081395,
+    "sha256": "486d53a137a750ef31c9c3ab7d1b231d8b48e32265d67c6187a1c2f2aa6e00f2"
+  },
+  {
+    "id": 10842198,
+    "filename": "CEMS Panel Monthly (clean, PO).dta",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842198?format=original",
+    "bytes": 3579678,
+    "sha256": "ac4b76ccce0b723823f39cb0ce6fdb9a174fd84dc5e82ab71bfe9e6d868fd067"
+  },
+  {
+    "id": 10842135,
+    "filename": "PlantMonthPMMassNoRule.dta",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842135?format=original",
+    "bytes": 440242,
+    "sha256": "58466c96b0b3afce4242524a3dbb019af63dbd6f9b91887885c0f140c853f26b"
+  },
+  {
+    "id": 10842204,
+    "filename": "StackMonthPMMassRule0.dta",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842204?format=original",
+    "bytes": 497598,
+    "sha256": "f8ba3bfba9e03b584fe317bfacc73371cd7752cf877d1523e657d480ca67181b"
+  }
+]

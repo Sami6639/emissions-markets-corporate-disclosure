@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this replication repository, the associated manuscript and the relevant original datasets."
+type: software
+title: "Emissions Markets and Corporate Environmental Disclosure: A Cross-Country Analysis — Replication Materials"
+authors:
+  - family-names: "Küçükoğlu"
+    given-names: "Sami"
+version: 1.0.0
+date-released: 2026-11-13
+repository-code: "https://github.com/Sami6639/emissions-markets-corporate-disclosure"
+url: "https://github.com/Sami6639/emissions-markets-corporate-disclosure"
+keywords:
+  - Carbon emissions
+  - Corporate reporting
+  - Emissions markets
+  - Environmental policy
+  - Sustainability

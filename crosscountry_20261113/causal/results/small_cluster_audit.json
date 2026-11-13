@@ -1,0 +1,30 @@
+{
+  "beta": 0.6079952772886262,
+  "se_cr2": 0.1358175061375578,
+  "df_satterthwaite": 5.479366050543424,
+  "lo": 0.26785517700263034,
+  "hi": 0.9481353775746222,
+  "p": 0.005247859094175023,
+  "clusters": 13,
+  "full_design_rank": 156,
+  "working_model_variance": 0.06079432351364501,
+  "expected_cr2_variance": 0.060794323513644985,
+  "max_cluster_unbiasedness_error": 2.7755575615628914e-17,
+  "method": "Full-design CR2 with identity working covariance and Satterthwaite reference; supplemental inference, not a new primary model",
+  "timing": "Post-primary referee audit; not prespecified",
+  "closed_form_validation_se_error": 0.0,
+  "closed_form_validation_df_error": 3.552713678800501e-15,
+  "treated_post_weight_sum": 1.0000000000014286,
+  "negative_treated_post_cells": 3,
+  "negative_treated_post_weight_sum": -0.008282216751822181,
+  "positive_information_clusters": 10,
+  "max_cluster_information_share": 0.210441889085694,
+  "information_effective_clusters": 6.452985346501182,
+  "jackknife": {
+    "se": 0.1462876662496605,
+    "df": 12,
+    "lo": 0.28926183324178834,
+    "hi": 0.9267287213354641,
+    "p": 0.0013318739344245379
+  }
+}

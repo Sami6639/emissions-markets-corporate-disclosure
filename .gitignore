@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.venv/
+run_logs/
+*.log
+.DS_Store
+crosscountry_20261113/lseg/
+*_private.*
+crosscountry_20261113/results/conflicting_field_keys.csv
+crosscountry_20261113/results/ambiguous_identity_counts.csv
+crosscountry_20261113/causal/cninfo/pdf/
+crosscountry_20261113/causal/cninfo/pdf_*/
+crosscountry_20261113/causal/cninfo/flagged_page_snippets.csv
+crosscountry_20261113/causal/submission_audit/*context*
+crosscountry_20261113/causal/submission_audit/*snippet*
+
+# Large public inputs fetched with prepare_inputs.py
+/manuscript_20261113/analysis/pollution_markets_rct_20261112/raw/Rule0_Panel.dta
+/manuscript_20261113/analysis/pollution_markets_rct_20261112/raw/RuleA_Panel.dta
+/manuscript_20261113/analysis/pollution_markets_rct_20261112/raw/RuleB_Panel.dta
+/manuscript_20261113/analysis/pollution_markets_rct_20261112/raw/RuleM_Panel.dta
+/manuscript_20261113/audit_sources/CEMS_2018-12-31 to 2021-04-03_StackDay_Balanced_HistCFs_Master337s_3sample2trunc.dta
+/manuscript_20261113/audit_sources/CEMS Panel Monthly (clean, PO).dta
+/crosscountry_20261113/causal/d96g66wbjk.dta

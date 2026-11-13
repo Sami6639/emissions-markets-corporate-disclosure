@@ -1,0 +1,10 @@
+p_wcr,draws,seed,t_observed,tail_tolerance,bootstrap,clusters,model,outcome
+0.0025,9999,20261113,3.836418464905208,3.836418464905208e-10,restricted Rademacher cluster bootstrap-t; null coefficient zero,13,Primary,mention
+0.0025,9999,20261113,3.7951290373753004,3.7951290373753005e-10,restricted Rademacher cluster bootstrap-t; null coefficient zero,13,Original source dictionary,archive_mention
+0.0051,9999,20261113,3.911569283519804,3.9115692835198045e-10,restricted Rademacher cluster bootstrap-t; null coefficient zero,18,Initially defined controls,mention
+0.0018,9999,20261113,4.147389500674492,4.1473895006744917e-10,restricted Rademacher cluster bootstrap-t; null coefficient zero,14,Unbalanced,mention
+0.0025,9999,20261113,3.7951290373753004,3.7951290373753005e-10,restricted Rademacher cluster bootstrap-t; null coefficient zero,13,Restricted dictionary,mention_restricted
+0.0025,9999,20261113,3.2983952586246668,3.2983952586246666e-10,restricted Rademacher cluster bootstrap-t; null coefficient zero,13,Carbon page count log1p,log_carbon_pages
+0.4382,9999,20261113,0.7156656426322153,1e-10,restricted Rademacher cluster bootstrap-t; null coefficient zero,13,Report length negative control,log_pages
+0.0001,9999,20261113,6.657415842445978,6.657415842445978e-10,restricted Rademacher cluster bootstrap-t; null coefficient zero,22,Firm and year effects,mention
+0.0003,9999,20261113,3.1296303521374584,3.1296303521374585e-10,restricted Rademacher cluster bootstrap-t; null coefficient zero,13,Baseline covariates by year,mention

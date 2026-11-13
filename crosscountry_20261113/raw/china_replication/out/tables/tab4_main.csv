@@ -1,0 +1,9 @@
+﻿specification,coef,se,stat,stat_type,p,ci_low,ci_high,ratio,n
+"PPML, carbon pages",0.3715,0.1403,2.65,z,0.0081,0.0965,0.6465,1.45,1809
+"log(1+P), no controls",-0.024,0.0463,-0.52,t,0.604,-0.1147,0.0667,,1809
+"log(1+P), with controls",-0.0227,0.0476,-0.48,t,0.634,-0.1159,0.0706,,1809
+Any allowance quantity (LPM),0.0097,0.0115,0.84,t,0.3988,-0.0128,0.0322,,1809
+Extensive margin,0.0488,0.0342,1.42,t,0.1542,-0.0183,0.1158,,1809
+Intensive margin,0.0477,0.0701,0.68,t,0.496,-0.0897,0.1852,,824
+Normalized (carbon pages %),-0.0964,0.0766,-1.26,t,0.2085,-0.2466,0.0538,,1809
+Placebo: ln(total pages),-0.0208,0.0138,-1.51,t,0.1315,-0.0479,0.0062,,1809

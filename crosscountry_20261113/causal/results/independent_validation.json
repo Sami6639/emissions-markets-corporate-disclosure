@@ -1,0 +1,11 @@
+{
+  "absorbed_beta": 0.607995277288626,
+  "dummy_beta": 0.607995277288628,
+  "coefficient_abs_error": 1.9984014443252818e-15,
+  "absorbed_se": 0.15847991632050717,
+  "dummy_se_same_conservative_df": 0.15847991632054725,
+  "se_abs_error": 4.007905118896815e-14,
+  "dummy_exact_rank": 156,
+  "absorbed_conservative_rank": 175,
+  "note": "SVD rcond=1e-10 removes redundant fixed effects. Same conservative CR1 correction used for the independent SE comparison."
+}

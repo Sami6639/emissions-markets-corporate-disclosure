@@ -1,0 +1,8 @@
+{
+  "amendment_recorded_before_any_new_design_coefficient_was_estimated": true,
+  "reason": "Exact entity-name search of pre-policy annual reports identified roster entities inside reports of nominal controls; source archive brand matching is insufficient for absence of coverage.",
+  "primary_change": "Exclude comparison firms whose FY2018 annual report mentions any complete legal name from the official 2225-entity roster. This deliberately conservative screen excludes suppliers and affiliates as well as possible subsidiaries, without asserting ownership from a mention. Treated companies remain only directly named listed legal entities or branches.",
+  "comparison": "Report the initially defined comparison set as a sensitivity, not silently discard it. Save company-level exclusions and text evidence.",
+  "remaining_scope": "Identification concerns direct-name treated firms and conservatively screened comparators, with conditional parallel trends. Corporate reorganizations and unreported indirect holdings cannot be proven absent.",
+  "baseline_industry_correction": "Before estimating any model, restrict to 2019 financial-source industry codes for chemical manufacturing, coal extraction/washing and paper manufacturing. This removes 3 initially treated companies (2 chemical-fibre, 1 food) and comparators with unrelated pre-policy industries; use 2019 industry-by-year fixed effects. Initial broad sample counts are preliminary."
+}

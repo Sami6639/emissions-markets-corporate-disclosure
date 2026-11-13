@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-13",
+  "status": "Post-primary; selection rules fixed before new source-page coding",
+  "selection": "Census of three pre-period positives and seven comparison post positives; hash-first twelve treated post positives; hash-first six negatives in each arm-period stratum.",
+  "seed_string": "20261113-semantic",
+  "unit": "report",
+  "n": 46,
+  "categories": {
+    "G": "Generic carbon-market/accounting policy, without firm-specific participation details",
+    "F": "Firm-specific carbon-market participation, compliance or management information, without reported allowance amounts",
+    "Q": "Firm-specific allowance balances, acquisitions, surrender or transactions with quantitative amounts in tonnes or currency",
+    "0": "No carbon-market information located in the reviewed passages",
+    "U": "Unresolved; must not be counted as validated"
+  },
+  "coding": "Highest supported category Q>F>G>0, with source pages and decision rationale. Carbon goals, general emissions and a company name alone are outside the market-content construct.",
+  "search_scope": "Every PDF page scanned with a broader carbon/allowance/trading expression; contextual passages reviewed. Negative review is search-assisted, not exhaustive independent human reading.",
+  "blinding": "Coding packets omit treatment and extracted outcome columns; company/year may be inferred from report text. One AI-assisted review, no independent human raters or inter-rater reliability claim.",
+  "inference": "Diagnostic selected sample; not an estimate of population numerical-disclosure prevalence or an exhaustive false-negative rate. Original primary indicator and model are retained unless verified extraction errors require correction."
+}

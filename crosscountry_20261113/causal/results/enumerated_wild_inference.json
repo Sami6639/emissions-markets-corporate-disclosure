@@ -1,0 +1,6 @@
+{
+  "all_sign_patterns": 8192,
+  "enumerated_restricted_wild_p": 0.001953125,
+  "t_observed": 3.836418464905208,
+  "note": "Exhaustive wild-cluster sign enumeration under the bootstrap null, not a randomized-treatment test."
+}

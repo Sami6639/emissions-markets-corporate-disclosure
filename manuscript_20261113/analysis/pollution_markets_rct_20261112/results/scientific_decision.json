@@ -1,0 +1,28 @@
+{
+  "selected_question_tr": "Emisyon piyasasına atanmak, şirketlerin çevresel hesap verebilirliğini güçlendiriyor mu?",
+  "operational_outcomes": [
+    "Aylık PM emisyon serisinin hesaplanabilir olması",
+    "Aylık seride kayıt bulunması ve PM miktarının önceden belirlenen karşılaştırma eşiğini aşmaması"
+  ],
+  "research_type": "Secondary analysis of an existing randomized experiment; newly downloaded open data, not newly collected experiment.",
+  "empirical_status": "Primary and prespecified robustness analysis completed; original published mean results independently reproduced.",
+  "scientific_claim": "Strong assignment effects on the two observable evidence outcomes in eligible318. Sensitivity allowing any binary outcomes and any arm split for all24 excluded plants retains positive full342 group-contrast bounds and conservative nominal simultaneous intervals.",
+  "critical_distinction": "Documented-below-threshold is joint availability-and-mass outcome, NOT a pure physical-abatement effect. No-record months count as no evidence, never as zero emissions. The1000kg threshold is analytical, not legal or safety standard.",
+  "physical_outcome_status": "Published Rule0/A/B mean-log estimates reproduced. New worst-case missing-month bounds for physical below-threshold probability include zero. Do not claim assumption-free physical emissions reduction.",
+  "assignment_reconciliation": "Master original assignment160/158 differs from official162/156 for2plants. Primary usesoriginal; official sensitivity similar. TableA3 reports342 official174/168 then24 exclusions. Original excluded-arm reconciliation unknown, so full342 sensitivity enumeratesall25 possibleallocations.",
+  "limitations": [
+    "Public processed series includes upstream calibration, outlier truncation and within-month reconstruction.",
+    "Randomization inference uses plant-level asymptotic robust methods; no exact rerandomization protocol/code recovered.",
+    "The original paper already discusses reporting improvements. The added joint outcome, original-assignment check and selection bounds are extensions; standalone novelty is not certified by a web search.",
+    "No claims about carbon emissions, fullCSR, causalfirmprofits, investment mechanisms, or market-financing component separate from enforcement bundle."
+  ],
+  "publication_status": "Do not draft manuscript yet. A standalone publication contribution and full source transformation audit need further assessment; a strong replicated/extended empirical result is not itself a new publication.",
+  "five_table_ceiling": [
+    "Design,data,assignment and sample flow",
+    "Two coprimary evidence outcomes",
+    "Missing-outcome and excluded-plant bounds",
+    "Original physical-emission replication clearly attributed",
+    "Sensitivity checks; extra details inappendices"
+  ],
+  "protocol_deviation": "Full342 selection envelope was added after primaryresults as an explicitly labelled validation, not preregistered confirmation."
+}

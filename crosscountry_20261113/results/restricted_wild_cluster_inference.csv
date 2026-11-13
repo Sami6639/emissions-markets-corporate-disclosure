@@ -1,0 +1,6 @@
+p_wcr,draws,seed,t_observed,bootstrap,clusters,outcome,p_wcr_holm
+0.5872,9999,20261113,0.8302614573445104,restricted Rademacher cluster bootstrap-t; null coefficient zero,28,s12,
+0.4569,9999,20261113,0.9870813450051348,restricted Rademacher cluster bootstrap-t; null coefficient zero,28,s1,1.0
+0.5397,9999,20261113,0.9551124595052551,restricted Rademacher cluster bootstrap-t; null coefficient zero,28,s2,1.0
+0.7667,9999,20261113,-0.40792854689164343,restricted Rademacher cluster bootstrap-t; null coefficient zero,28,s3,1.0
+0.699,9999,20261113,-0.5255918162836802,restricted Rademacher cluster bootstrap-t; null coefficient zero,28,s123,1.0

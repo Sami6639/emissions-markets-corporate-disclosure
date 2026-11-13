@@ -1,0 +1,4 @@
+﻿specification,coef,se,stat,stat_type,p,ci_low,ci_high,ratio,n
+narrative sentences,0.7145,0.2363,3.02,z,0.0025,0.2513,1.1776,2.043,1809
+narrative characters,0.6349,0.2383,2.66,z,0.0077,0.1679,1.1019,1.887,1809
+numerals in narrative,0.4787,0.314,1.52,z,0.1274,-0.1368,1.0941,1.614,1809

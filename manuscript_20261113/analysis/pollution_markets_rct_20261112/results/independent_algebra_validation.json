@@ -1,0 +1,16 @@
+[
+  {
+    "outcome": "observed",
+    "fwl_beta": 0.22516314711687074,
+    "ols_beta": 0.2251631502365513,
+    "absolute_difference": 3.1196805694300167e-09,
+    "tolerance": 1e-07
+  },
+  {
+    "outcome": "documented_below_1000",
+    "fwl_beta": 0.26404690033937656,
+    "ols_beta": 0.2640468979844628,
+    "absolute_difference": 2.3549137639911066e-09,
+    "tolerance": 1e-07
+  }
+]

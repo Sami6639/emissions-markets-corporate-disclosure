@@ -1,0 +1,47 @@
+audit_id,semantic_category,reviewed_pdf_pages,coding_rationale,review_method
+A001,0,,No carbon-market passage located in the broader source search.,AI-assisted single source-page review; broad text-search scope
+A002,0,,No carbon-market passage located in the broader source search.,AI-assisted single source-page review; broad text-search scope
+A003,0,,No carbon-market passage located in the broader source search.,AI-assisted single source-page review; broad text-search scope
+A004,0,,No carbon-market passage located in the broader source search.,AI-assisted single source-page review; broad text-search scope
+A005,0,,No carbon-market passage located in the broader source search.,AI-assisted single source-page review; broad text-search scope
+A006,0,,No carbon-market passage located in the broader source search.,AI-assisted single source-page review; broad text-search scope
+A007,Q,138;171;173,"Carbon allowance assets, sale income and purchase cash outflows have monetary amounts. No claim of a complete physical allowance reconciliation.",AI-assisted single source-page review; broad text-search scope
+A008,0,,No carbon-market passage located in the broader source search.,AI-assisted single source-page review; broad text-search scope
+A009,0,46,"General pesticide-sector policy mentions reducing greenhouse gases, without a carbon-market item.",AI-assisted single source-page review; broad text-search scope
+A010,0,,No carbon-market passage located in the broader source search.,AI-assisted single source-page review; broad text-search scope
+A011,0,,No carbon-market passage located in the broader source search.,AI-assisted single source-page review; broad text-search scope
+A012,0,,No carbon-market passage located in the broader source search.,AI-assisted single source-page review; broad text-search scope
+A013,0,,No carbon-market passage located in the broader source search.,AI-assisted single source-page review; broad text-search scope
+A014,0,,No carbon-market passage located in the broader source search.,AI-assisted single source-page review; broad text-search scope
+A015,0,,No carbon-market passage located in the broader source search.,AI-assisted single source-page review; broad text-search scope
+A016,0,,No carbon-market passage located in the broader source search.,AI-assisted single source-page review; broad text-search scope
+A017,0,,No carbon-market passage located in the broader source search.,AI-assisted single source-page review; broad text-search scope
+A018,0,59;67;127;165,"Physical greenhouse-gas reporting and generic pollutant-discharge rights appear, without identified carbon-market content. Non-carbon pollutant rights are outside the construct.",AI-assisted single source-page review; broad text-search scope
+A019,0,,No carbon-market passage located in the broader source search.,AI-assisted single source-page review; broad text-search scope
+A020,Q,176;177;194,Allowance sale income and cash receipts are quantified; related-party disclosures identify an allowance transaction. Carbon-service company names alone are not the basis for this code.,AI-assisted single source-page review; broad text-search scope
+A021,F,38;39,The firm identifies its power facility as covered by national allowance management and distinguishes other activities. Physical emissions are not coded as allowance quantities.,AI-assisted single source-page review; broad text-search scope
+A022,0,,No carbon-market passage located in the broader source search.,AI-assisted single source-page review; broad text-search scope
+A023,0,53,Company greenhouse-gas accounting and internal data-management plans appear without a market-specific participation or allowance item.,AI-assisted single source-page review; broad text-search scope
+A024,G,44;66;73;142;174,Industry outlook links the carbon-trading market to photovoltaic demand. Other passages give physical emissions and non-carbon pollution rights; no company-specific carbon-market transaction is established.,AI-assisted single source-page review; broad text-search scope
+A025,Q,162;173;175,"Carbon-emission-right liabilities and expenses are reported in currency. Amounts are reported values, not independently verified obligations.",AI-assisted single source-page review; broad text-search scope
+A026,0,79;198;199,Carbon-asset wording occurs in a related-party service-provider name. Its procurement fee does not establish an allowance transaction; name-only mentions remain excluded.,AI-assisted single source-page review; broad text-search scope
+A027,0,,No carbon-market passage located in the broader source search.,AI-assisted single source-page review; broad text-search scope
+A028,Q,36;42;129;143,"The report describes first-cycle compliance and gives allowance shortfalls, purchase quantities, unit prices and transaction amounts. Their accuracy is not certified by this content code.",AI-assisted single source-page review; broad text-search scope
+A029,F,11;12,"The company links its process-related carbon savings to prospective trading revenues. This is a company-specific expectation, not evidence of completed transactions.",AI-assisted single source-page review; broad text-search scope
+A030,F,15;74,The report describes opening online carbon trading and identifies a thermal-power facility as a national-market member. No allowance amount is established in the inspected market passages.,AI-assisted single source-page review; broad text-search scope
+A031,Q,176,The allowance-expense line contains a comparative-period monetary amount; content presence is not restricted to a nonzero current-period transaction.,AI-assisted single source-page review; broad text-search scope
+A032,0,,No carbon-market passage located in the broader source search.,AI-assisted single source-page review; broad text-search scope
+A033,0,52,Energy-efficiency upgrades and physical carbon reductions are described without a market-specific item.,AI-assisted single source-page review; broad text-search scope
+A034,Q,185,A carbon-allowance expense is reported in currency in the non-operating expense table.,AI-assisted single source-page review; broad text-search scope
+A035,Q,58;185,Company-specific carbon-market preparations and a monetary receipt from carbon-emission rights are disclosed.,AI-assisted single source-page review; broad text-search scope
+A036,Q,28;190,Carbon-management plans and monetary income and expenses for emission rights are disclosed.,AI-assisted single source-page review; broad text-search scope
+A037,Q,56;192,The report lists an applicable carbon rule and a monetary carbon-emission-right asset item. The code does not interpret this as a complete allowance inventory.,AI-assisted single source-page review; broad text-search scope
+A038,Q,24;69,"A voluntary forest-carbon credit purchase of 3036 tonnes is described. This is quantitative carbon-market content, not national-ETS allowance surrender or a complete reconciliation.",AI-assisted single source-page review; broad text-search scope
+A039,F,31,A subsidiary registration includes carbon-emission-right trading in its business scope. Registration is company-specific information but not proof of actual transactions.,AI-assisted single source-page review; broad text-search scope
+A040,G,10,"The industry and policy background cites the carbon-trading management rule and its commencement, without a company-specific transaction.",AI-assisted single source-page review; broad text-search scope
+A041,G,62,The carbon-trading management rule is included in a general list of applicable environmental laws.,AI-assisted single source-page review; broad text-search scope
+A042,F,55,"The company explicitly states that it is not a covered carbon-trading enterprise. This is company-specific market information, not positive evidence of participation.",AI-assisted single source-page review; broad text-search scope
+A043,F,73,The company describes prospective integration of resource management and carbon trading into its strategy; completed trading is not established.,AI-assisted single source-page review; broad text-search scope
+A044,F,12,The company discusses prospective sales of surplus carbon indicators linked to its production process. The physical process intensity is not an allowance transaction quantity.,AI-assisted single source-page review; broad text-search scope
+A045,G,65,The carbon-trading rule appears in a general list of applicable environmental regulation.,AI-assisted single source-page review; broad text-search scope
+A046,G,10,Industry background attributes energy-storage demand partly to carbon-market pressure; battery output figures are not carbon-market transaction amounts.,AI-assisted single source-page review; broad text-search scope

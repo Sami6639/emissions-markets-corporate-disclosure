@@ -1,0 +1,2 @@
+model,outcome,term,beta,se,lo,hi,p,n,firms,countries,clusters,df_cluster,absorbed_rank,slope_rank,effects,singleton_removed,iterations,weighted,linear_trends,out_of_range_fit,wild_p
+Two source-adjudicated classifications corrected,mention,did,0.607995277288626,0.15847991632050717,0.26269720236491617,0.9532933522123359,0.0023678105452181746,480,80,1,13,12,174,1,firm + sector_year + province_year,0,17,False,False,0.3375,0.0025

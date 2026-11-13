@@ -1,0 +1,45 @@
+{
+  "title": "Emissions Trading and Corporate Environmental Disclosure: A Cross-Country Analysis",
+  "status": "Internal analysis plan recorded after source/schema inspection and before cross-country outcome-model estimation; not externally preregistered.",
+  "period": "2002-2024; exclude incomplete 2025 and 2026",
+  "frame": "Organization-years with an observed Boolean TR.PolicyWaterEfficiency, nonfinancial and known sector, organization_id and country. No imputed organization-year gaps. Country labels standardized; ambiguous identity/period conflicts quarantined.",
+  "primary_outcome": "Availability of finite nonnegative values for BOTH TR.CO2DirectScope1 and TR.CO2IndirectScope2, in the same organization-fiscal year. Zero is observed disclosure. Absence means not captured by the supplied archive, not proven nondisclosure.",
+  "secondary_outcomes": [
+    "Scope 1 availability",
+    "Scope 2 availability",
+    "Scope 3 availability",
+    "All three scopes available"
+  ],
+  "exposure": "Country-level national/supranational ETS operating context, not firm participation. World Bank historical instrument series and official institutional chronology. Subnational-only contexts distinguished; carbon tax context controlled. No current status backcast.",
+  "primary_model": "Linear probability association: national ETS indicator, subnational ETS context, national carbon tax, log GDP per capita, GDP growth; country and industry-by-year fixed effects; cluster by common EU/EEA/UK policy family and otherwise country, t(G-1). Main effect not interpreted causally.",
+  "secondary_models": [
+    "Industry and year fixed effects between-country comparison",
+    "Firm and industry-year fixed effects",
+    "Country linear trends",
+    "National ETS by emissions-intensive sector interaction with firm and country-year and industry-year fixed effects"
+  ],
+  "prespecified_sensitivities": [
+    "2010-2024",
+    "2015-2024",
+    "Exclude China",
+    "Exclude EU/EEA/UK",
+    "Exclude pilot/fixed-price transitions (Australia/Mexico/Canada)",
+    "Alternative coverage frame union of water-policy and energy-policy observations",
+    "Common firms observed in all 2015-2024 years",
+    "Equal country-year weight",
+    "Leave one policy-family out",
+    "Country rather than policy-family clustered SE"
+  ],
+  "figures": [
+    "Country coverage and disclosure profiles including China",
+    "Annual disclosed scope coverage by regulatory context",
+    "Model estimates with 95% intervals",
+    "Within-country sector contrast and robustness intervals if estimable; otherwise transparent country time comparison"
+  ],
+  "inference": "Primary single outcome. Holm adjustment across four secondary scope coefficients; heterogeneity is secondary, no selective reporting. No significance guarantee or retrospective causal label.",
+  "india": "Existing randomized particulate-matter experiment retained as separate supporting evidence/appendix, never pooled with CO2 or transported to all countries.",
+  "provenance": "LSEG licensed source files stay private; code, policy sources, aggregate outputs and identifiers/definitions supplied for authorized reproduction. Published China candidate is not needed for inclusion; use only after provenance/data validation.",
+  "timing_details": "Fiscal-year labels 2002-2024 as supplied by LSEG define the organization-year unit. Regulatory context and macro controls align to that fiscal-year label. Endpoints must be unique and fall in the labeled year or the following calendar year. Legitimate 52/53-week year endings can generate two distinct fiscal years ending in one calendar year; these are not duplicates and are retained. Exclusion of fiscal/end-calendar-year mismatches is an added timing sensitivity fixed before estimation. Previous-year context is also tested.",
+  "policy_details": "Voluntary Japanese GX pilot context from 2023 is modeled separately; Kazakhstan 2016-2017 trading suspension is not coded as an operating ETS; Norway national ETS from 2005. Regulatory exposure is year-end context; previous-year context is a timing sensitivity.",
+  "amended_before_first_crosscountry_estimation_utc": "2026-11-13T07:21:53.331849+00:00"
+}

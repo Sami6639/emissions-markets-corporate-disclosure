@@ -1,0 +1,7 @@
+model,outcome,term,beta,se,lo,hi,p,n,firms,countries,clusters,df_cluster,absorbed_rank,slope_rank,effects,singleton_removed,iterations,weighted,linear_trends,out_of_range_fit,reportable,wild_p,status,sector,mode,n_before_fit,firms_before_fit
+Only 化学原料及化学制品制造业,mention,did,0.5912810383747179,0.17419726751539336,0.2078754376448238,0.9746866391046121,0.005988963108026313,408.0,68.0,1.0,12.0,11.0,144.0,1.0,firm + sector_year + province_year,6.0,2.0,False,False,0.33578431372549017,True,0.0088,estimated,化学原料及化学制品制造业,Only,,
+Exclude 化学原料及化学制品制造业,,,,,,,,,,,,,,,,,,,,,False,,"('Exclude 化学原料及化学制品制造业', 'insufficient support', 30, np.int32(22), 2)",化学原料及化学制品制造业,Exclude,66.0,11.0
+Only 煤炭开采和洗选业,,,,,,,,,,,,,,,,,,,,,False,,zero-size array to reduction operation maximum which has no identity,煤炭开采和洗选业,Only,18.0,3.0
+Exclude 煤炭开采和洗选业,mention,did,0.6066155325488122,0.16119495461995778,0.25182782954863997,0.9614032355489843,0.0031369632464249013,456.0,76.0,1.0,12.0,11.0,158.0,1.0,firm + sector_year + province_year,6.0,13.0,False,False,0.3333333333333333,True,0.005,estimated,煤炭开采和洗选业,Exclude,,
+Only 造纸及纸制品业,,,,,,,,,,,,,,,,,,,,,False,,"('Only 造纸及纸制品业', 'insufficient support', 30, np.int32(22), 2)",造纸及纸制品业,Only,48.0,8.0
+Exclude 造纸及纸制品业,mention,did,0.5928431818958356,0.17090845858620832,0.22046563962955473,0.9652207241621165,0.0046414218647702855,432.0,72.0,1.0,13.0,12.0,160.0,1.0,firm + sector_year + province_year,0.0,17.0,False,False,0.33796296296296297,True,0.0036,estimated,造纸及纸制品业,Exclude,,

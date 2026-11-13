@@ -1,0 +1,19 @@
+{
+  "estimand": "Effect for firms with overlap in baseline size, leverage, profitability and industry; not all treated firms",
+  "beta": 0.5361193976135986,
+  "se_joint_estimation": 0.148490392549338,
+  "lo": 0.21258662524477795,
+  "hi": 0.8596521699824193,
+  "p": 0.0035765685999652745,
+  "firms": 80,
+  "treated": 22,
+  "province_clusters": 13,
+  "effective_treated": 14.182182825251248,
+  "effective_controls": 24.20585680434642,
+  "ps_min": 0.008275596802758236,
+  "ps_max": 0.9991376893964427,
+  "max_abs_smd_after": 1.9233150487517562e-14,
+  "ps_converged": true,
+  "timing": "Post-estimation sensitivity prompted by baseline balance audit, not prespecified",
+  "inference": "Joint logistic propensity and weighted-mean estimating equations; province-cluster sandwich and t(G-1). No province-by-year effects in this separate weighted contrast."
+}

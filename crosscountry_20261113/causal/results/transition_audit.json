@@ -1,0 +1,12 @@
+{
+  "status": "post-primary exploratory timing sensitivity",
+  "main_sample": 80,
+  "timing_valid_transition_reports": 77,
+  "treated": 20,
+  "controls": 57,
+  "late_reports_excluded": 2,
+  "missing_source_2020": 1,
+  "reconstructed_matches": 77,
+  "source_reports_reconstructed": 77,
+  "interpretation": "2017 framework, 2020 accounting rules and December 2020 allocation precede July 2021 trading. The 2020 baseline is already exposed to preparations and allocation; its contrast is incremental, not an untreated-baseline ATT."
+}

@@ -1,0 +1,54 @@
+{
+  "status": "post-primary diagnostic, not population accuracy or prevalence",
+  "n_reports": 46,
+  "positive_reviewed": 22,
+  "negative_reviewed": 24,
+  "category_counts": {
+    "0": 24,
+    "Q": 10,
+    "F": 7,
+    "G": 5
+  },
+  "positive_by_category": {
+    "Q": 10,
+    "F": 7,
+    "G": 4,
+    "0": 1
+  },
+  "negative_by_category": {
+    "0": 23,
+    "G": 1
+  },
+  "semantic_agreement": 44,
+  "reconstruction_agreement": 46,
+  "unresolved": 0,
+  "independent_human_raters": 0,
+  "reviewer_type": "AI assistant; source-page decisions available for author verification",
+  "q_interpretation": "Numerical carbon-market item, including one voluntary-credit purchase; not full regulated-allowance reconciliation",
+  "adjudicated_false_positive": 1,
+  "adjudicated_false_negative": 1,
+  "correction_sensitivity": {
+    "model": "Two source-adjudicated classifications corrected",
+    "outcome": "mention",
+    "term": "did",
+    "beta": 0.607995277288626,
+    "se": 0.15847991632050717,
+    "lo": 0.26269720236491617,
+    "hi": 0.9532933522123359,
+    "p": 0.0023678105452181746,
+    "n": 480,
+    "firms": 80,
+    "countries": 1,
+    "clusters": 13,
+    "df_cluster": 12,
+    "absorbed_rank": 174,
+    "slope_rank": 1,
+    "effects": "firm + sector_year + province_year",
+    "singleton_removed": 0,
+    "iterations": 17,
+    "weighted": false,
+    "linear_trends": false,
+    "out_of_range_fit": 0.3375,
+    "wild_p": 0.0025
+  }
+}

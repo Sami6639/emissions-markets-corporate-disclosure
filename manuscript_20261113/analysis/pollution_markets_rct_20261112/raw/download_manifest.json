@@ -1,0 +1,114 @@
+[
+  {
+    "id": 10842212,
+    "filename": "BaselineCovariates_318i.dta",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842212?format=original",
+    "bytes": 171355,
+    "sha256": "e673065bcc7f4e8ca8f185fa712c9966c016f60a7dfda3b9595b4a1eeba9d828"
+  },
+  {
+    "id": 10842142,
+    "filename": "BaselineCovariates.dta",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842142?format=original",
+    "bytes": 211821,
+    "sha256": "d0fd1c3abe0c7fcdb9118e293adb9f675ccd33b60f7454d6cb20fdf49a31a725"
+  },
+  {
+    "id": 10842019,
+    "filename": "clean_baseline_covariates.do",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842019?format=original",
+    "bytes": 5703,
+    "sha256": "8a62e2d9e722afd703d51531364991f60760fb241c71d033ffb03697bf8c352c"
+  },
+  {
+    "id": 10842085,
+    "filename": "compare_imputation_rules.do",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842085?format=original",
+    "bytes": 7353,
+    "sha256": "e76229c91f9705bcc6949df2ccd918e0ff1f897d026120c2f650671854bb156c"
+  },
+  {
+    "id": 10842160,
+    "filename": "construct_analysis_panel.do",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842160?format=original",
+    "bytes": 7633,
+    "sha256": "02fb71b84e50128467cbbad3149a7cc89c83ce0af32663b99c5201c534fcd841"
+  },
+  {
+    "id": 10842199,
+    "filename": "LICENSE.txt",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842199?format=original",
+    "bytes": 15644,
+    "sha256": "fde731ea32553cdb62cbccf5d8b89745ea33f45d7a90e9bb246b68bd0e0cec78"
+  },
+  {
+    "id": 10842237,
+    "filename": "make_regression_table_covid_inter.do",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842237?format=original",
+    "bytes": 6232,
+    "sha256": "7d31ec478eea9f36ca1ce132ae93477da10e5bb7802fa65fa937a38e05899fdb"
+  },
+  {
+    "id": 10842210,
+    "filename": "make_regression_table.do",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842210?format=original",
+    "bytes": 9152,
+    "sha256": "645730969ea17b3c86bc756dbbad4dc20eb4a950471699cd95149d3d16956e80"
+  },
+  {
+    "id": 10842202,
+    "filename": "Master ETS In-sample - Plants (318i).dta",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842202?format=original",
+    "bytes": 27829,
+    "sha256": "e21267f3eb66cc28a2cee46223d873070752b9322b05c13ed9cd38ec4d765898"
+  },
+  {
+    "id": 10842240,
+    "filename": "plot_emissions_distribution.do",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842240?format=original",
+    "bytes": 1326,
+    "sha256": "d6c083335c12bb1b7478feb82cbeb43f415c8098bcca457c06d29ec64f4a2908"
+  },
+  {
+    "id": 10842203,
+    "filename": "README.pdf",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842203?format=original",
+    "bytes": 87293,
+    "sha256": "44529b679cdb9f3da5c17ea59487626d7c1a0007503c2645ef832a556becdcf7"
+  },
+  {
+    "id": 10842090,
+    "filename": "Rule0_Panel.dta",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842090?format=original",
+    "bytes": 3886577,
+    "sha256": "79fe42e1276281a2739b24364b406263fc73d687481c79ac339ea20ab1262929"
+  },
+  {
+    "id": 10842062,
+    "filename": "RuleA_Panel.dta",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842062?format=original",
+    "bytes": 3628529,
+    "sha256": "8d53655f3a693b59eb361e9c37b3745629fbd4021b2199b034b158626bc26f8d"
+  },
+  {
+    "id": 10842102,
+    "filename": "RuleB_Panel.dta",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842102?format=original",
+    "bytes": 3628529,
+    "sha256": "279b83a54eeb101e14b102b7c23ddaa81492d296ea10f28b5f7c027a8aec4473"
+  },
+  {
+    "id": 10842034,
+    "filename": "RuleM_Panel.dta",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842034?format=original",
+    "bytes": 9362929,
+    "sha256": "b48427d1762d0066b8decee3a4ac0d1d0d6d3bc99d1292b23050cba35cd44d41"
+  },
+  {
+    "id": 10842143,
+    "filename": "Table_A3.tex",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842143?format=original",
+    "bytes": 2272,
+    "sha256": "9fd73518f27c0648c19958b66071a5b07882392832cf7833d25dbab97faaa4cc"
+  }
+]

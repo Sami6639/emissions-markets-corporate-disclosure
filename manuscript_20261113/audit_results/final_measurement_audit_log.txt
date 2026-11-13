@@ -1,0 +1,35 @@
+{
+  "secondary_post_primary_audit": true,
+  "source_daily_rows": 242303,
+  "source_plants": 318,
+  "source_stacks": 337,
+  "source_days": 719,
+  "retained_plants_in_original_mass_pipeline": 292,
+  "retained_stacks": 310,
+  "whole_plants_removed_not_individual_stacks": true,
+  "monthly_availability_matches": true,
+  "mass_max_absolute_difference_kg": 0.0009765625,
+  "mass_max_relative_difference": 1.6816855463730462e-07,
+  "mass_reconstruction_within_float32_tolerance": true,
+  "terminal_window_days": 19,
+  "coverage_missing_after_full_join": 0,
+  "primary_estimands_unchanged": true
+}
+                scope               outcome            model  coefficient       se       lo       hi   p   n  treated_mean  control_mean
+               all_13              observed         additive     0.225163 0.030612 0.164929 0.285398 0.0 318      0.901923      0.661636
+               all_13 documented_below_1000         additive     0.264047 0.035150 0.194883 0.333211 0.0 318      0.641827      0.372444
+               all_13 documented_30day_1000         additive     0.266919 0.035419 0.197226 0.336613 0.0 318      0.639904      0.368549
+               all_13       raw_hours_share         additive     0.209860 0.026583 0.157554 0.262167 0.0 318      0.806362      0.582422
+               all_13     valid_hours_share         additive     0.244323 0.027833 0.189556 0.299089 0.0 318      0.762870      0.503965
+               all_13              observed fully_interacted     0.230079 0.029959 0.171125 0.289033 0.0 318      0.901923      0.661636
+               all_13 documented_below_1000 fully_interacted     0.267665 0.034490 0.199794 0.335536 0.0 318      0.641827      0.372444
+omit_partial_final_12              observed         additive     0.235753 0.030804 0.175141 0.296364 0.0 318      0.908333      0.657700
+omit_partial_final_12 documented_below_1000         additive     0.270147 0.035926 0.199457 0.340837 0.0 318      0.632292      0.357068
+omit_partial_final_12 documented_30day_1000         additive     0.271939 0.035796 0.201504 0.342374 0.0 318      0.638542      0.361814
+omit_partial_final_12       raw_hours_share         additive     0.218382 0.026621 0.166001 0.270762 0.0 318      0.809959      0.577467
+omit_partial_final_12     valid_hours_share         additive     0.254684 0.027930 0.199727 0.309641 0.0 318      0.764194      0.495130
+         real_only_10              observed         additive     0.216351 0.031103 0.155151 0.277552 0.0 318      0.928750      0.697468
+         real_only_10 documented_below_1000         additive     0.277216 0.036660 0.205081 0.349351 0.0 318      0.689375      0.406962
+         real_only_10 documented_30day_1000         additive     0.279011 0.037030 0.206147 0.351874 0.0 318      0.682500      0.398734
+         real_only_10       raw_hours_share         additive     0.211435 0.027248 0.157819 0.265051 0.0 318      0.838782      0.613888
+         real_only_10     valid_hours_share         additive     0.262669 0.029109 0.205392 0.319946 0.0 318      0.817239      0.539861

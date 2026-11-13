@@ -1,0 +1,268 @@
+{
+  "1": {
+    "title": "Table 1. Samples, outcomes and identification roles",
+    "headers": [
+      "Component",
+      "Unit and period",
+      "Sample",
+      "Outcome and design"
+    ],
+    "rows": [
+      [
+        "India",
+        "Plant; 2019–2021",
+        "318 plants; 4,134 plant-windows",
+        "Measurement coverage; randomized original assignment"
+      ],
+      [
+        "China",
+        "Listed firm; 2017–2019 and 2021–2023",
+        "80 firms; 480 firm-years; 13 provinces",
+        "Annual-report carbon-market content; difference-in-differences"
+      ],
+      [
+        "International",
+        "Firm; 2002–2024",
+        "1,659 firms; 24,937 firm-years; 50 jurisdictions",
+        "Reported carbon-field capture; descriptive and contextual analysis"
+      ]
+    ],
+    "widths": [
+      1,
+      1.55,
+      1.6,
+      2.35
+    ],
+    "note": "Notes: India: 160 treatment and 158 comparison plants; 24 initial-frame exclusions are examined separately. China: 22 treated and 58 comparison firms after recursive singleton removal from 89 balanced firms. The international contextual model uses 24,647 observations, 1,636 firms and 47 jurisdictions in 28 policy clusters. Sources: cited public archives, official roster, retrieved annual reports and supplied LSEG archive; own constructions."
+  },
+  "2": {
+    "title": "Table 2. Randomized assignment effects on Indian reporting outcomes",
+    "headers": [
+      "Outcome",
+      "Control (%)",
+      "Treatment (%)",
+      "Effect [95% CI], pp",
+      "p"
+    ],
+    "rows": [
+      [
+        "Monthly estimate available",
+        "66.2",
+        "90.2",
+        "22.5 [16.5, 28.5]",
+        "<0.001"
+      ],
+      [
+        "Raw monitoring-hour coverage",
+        "58.2",
+        "80.6",
+        "21.0 [15.8, 26.2]",
+        "<0.001"
+      ],
+      [
+        "Valid calibrated-hour coverage",
+        "50.4",
+        "76.3",
+        "24.4 [19.0, 29.9]",
+        "<0.001"
+      ],
+      [
+        "Available estimate ≤1,000 kg",
+        "37.2",
+        "64.2",
+        "26.4 [19.5, 33.3]",
+        "<0.001"
+      ]
+    ],
+    "widths": [
+      2.05,
+      0.8,
+      0.85,
+      2.1,
+      0.7
+    ],
+    "note": "Notes: 318 plants; original assignment; equal-weight means across 13 active windows; seven baseline covariates; HC2/t inference with 309 residual degrees of freedom. Availability and joint documentation use Holm-adjusted p-values for the two co-primary tests; hourly checks use nominal p-values. All intervals are marginal. The 1,000-kg cutoff is analytical, not a legal limit. Source: own secondary analysis of Greenstone et al. (2025b)."
+  },
+  "3": {
+    "title": "Table 3. Chinese implementation-period reporting contrasts",
+    "headers": [
+      "Specification",
+      "Contrast [95% CI], pp",
+      "Firms",
+      "Clusters",
+      "p",
+      "Wild p"
+    ],
+    "rows": [
+      [
+        "Principal model",
+        "60.8 [26.3, 95.3]",
+        "80",
+        "13",
+        "0.0024",
+        "0.0025"
+      ],
+      [
+        "Uncorrected source dictionary",
+        "60.1 [25.6, 94.5]",
+        "80",
+        "13",
+        "0.0026",
+        "0.0025"
+      ],
+      [
+        "Baseline financial adjustment",
+        "53.3 [16.2, 90.4]",
+        "80",
+        "13",
+        "0.0087",
+        "0.0003"
+      ],
+      [
+        "Overlap population",
+        "53.6 [21.3, 86.0]",
+        "80",
+        "13",
+        "0.0036",
+        "—"
+      ],
+      [
+        "Initially defined controls",
+        "46.2 [21.3, 71.2]",
+        "150",
+        "18",
+        "0.0011",
+        "0.0051"
+      ],
+      [
+        "Unbalanced",
+        "60.3 [28.9, 91.8]",
+        "100",
+        "14",
+        "0.0011",
+        "0.0018"
+      ]
+    ],
+    "widths": [
+      1.8,
+      2.05,
+      0.6,
+      0.65,
+      0.65,
+      0.75
+    ],
+    "note": "Notes: Principal model: 480 firm-years, firm, 2019-industry×year and province×year fixed effects; province-clustered inference with G/(G−1) × (N−1)/(N−k) adjustment and t critical values. Financial adjustment interacts 2019 log assets, leverage and profitability with year. Overlap weights target a different population; joint-estimation clustered inference is used without province×year effects. Wild p uses 9,999 null-restricted Rademacher draws. The separate 2020-baseline contrast appears in Table S12. Source: own calculations."
+  },
+  "4": {
+    "title": "Table 4. Chinese identification and measurement diagnostics",
+    "headers": [
+      "Diagnostic",
+      "Result",
+      "Interpretation"
+    ],
+    "rows": [
+      [
+        "Joint pre-period test",
+        "F(2, 12) = 0.877; p = 0.441",
+        "Low baseline incidence limits power"
+      ],
+      [
+        "Exhaustive wild bootstrap",
+        "8,192 sign patterns; p = 0.00195",
+        "Conditional wild inference, not randomization"
+      ],
+      [
+        "Province omission",
+        "57.4–74.9 pp; maximum p = 0.0132",
+        "Positive in every omitted-province model"
+      ],
+      [
+        "CR2 / Satterthwaite",
+        "95% CI [26.8, 94.8] pp; p = 0.0052",
+        "Effective df = 5.48; same principal model"
+      ],
+      [
+        "Chemical sector only",
+        "59.1 pp [20.8, 97.5]; wild p = 0.0088",
+        "68 firms; other sector-only fits unsupported"
+      ],
+      [
+        "Baseline size imbalance",
+        "Unweighted SMD = 1.297",
+        "Financial adjustment and overlap checks required"
+      ],
+      [
+        "Overlap balance and support",
+        "Maximum |SMD| < 10⁻¹²; ESS 14.2 / 24.2",
+        "Measured means balanced; effective samples reduced"
+      ],
+      [
+        "Report-length check",
+        "0.032 [−0.066, 0.130]; p = 0.488",
+        "Log-page outcome; no precise length response"
+      ],
+      [
+        "Report reconstruction",
+        "40 of 40 exact matches",
+        "Strict page counts and binary indicator"
+      ],
+      [
+        "2020-baseline sensitivity",
+        "43.8 pp [−6.3, 94.0]",
+        "Already exposed baseline; interval includes zero"
+      ],
+      [
+        "Source-page semantic audit",
+        "46 reports; 2 discrepancies adjudicated",
+        "Corrections applied; original outcome retained in Table 3"
+      ],
+      [
+        "Five-pp annual linear drift",
+        "Sensitivity interval [6.3, 115.3] pp",
+        "Specified drift bound, not arbitrary confounding"
+      ]
+    ],
+    "widths": [
+      1.75,
+      2.25,
+      2.5
+    ],
+    "note": "Notes: ESS = effective sample size (treated/comparison); SMD = standardized mean difference. Report-length interval is in log units. Drift calculation widens the principal interval by ±20 points, reflecting four years between the mean pre- and post-period dates. Independent explicit-dummy validation gives coefficient error below 3 × 10⁻¹⁵ and standard-error error below 2 × 10⁻¹³. Source: own diagnostics."
+  },
+  "5": {
+    "title": "Table 5. International archive coverage in 2024",
+    "headers": [
+      "Regional group",
+      "Firms",
+      "Scopes 1 and 2 (%)",
+      "Scope 3 (%)"
+    ],
+    "rows": [
+      [
+        "China",
+        "132",
+        "82.6",
+        "29.5"
+      ],
+      [
+        "European ETS family",
+        "469",
+        "98.3",
+        "94.7"
+      ],
+      [
+        "Other countries",
+        "1051",
+        "93.6",
+        "81.4"
+      ]
+    ],
+    "widths": [
+      2.7,
+      0.8,
+      1.5,
+      1.5
+    ],
+    "note": "Notes: Rates refer to the supplied archive and the environmental-field-based sample; an absent field is not verified corporate non-disclosure. Scope 1–2 requires both reported fields. Reported zero values count as present. The contextual national-ETS coefficient is 3.8 pp (95% CI −5.5 to 13.0; wild p = 0.587), using the historical panel and country/industry-year effects. Source: supplied LSEG archive; own calculations."
+  }
+}

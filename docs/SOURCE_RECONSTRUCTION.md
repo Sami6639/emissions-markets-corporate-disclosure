@@ -1,0 +1,7 @@
+# Source-level reconstruction
+
+The China reporting analysis starts from archived extraction CSVs and our retrieved historical extracts, with frozen sample/protocol files and official name evidence. To reconstruct the historical PDF extraction, retrieve reports using causal/02_fetch_reports.py (network required), inspect report_manifest.csv for any current-source errors, then run causal/03_extract_preperiod.py. The extraction is process-parallel and can take substantial disk space. Source hosting may change; stored hashes identify the actual files used. The late 600731 FY2018 download was completed by range requests and appended; its final record is already in extracted_pages.csv. The forty-report archive check is stored separately. The additional 603077 FY2021 report verifies an itemized numerical example and is not part of the forty-report audit.
+The original Chen extraction source archive is retained unchanged under raw/china_replication. Its own regressions are source material, not the estimates reported here. The final China panel is rebuilt by 04_estimate_national.py, using exact legal-name matches, filing dates, baseline industries, pilot exclusions and the control-affiliation screen.
+
+
+The frozen design sample and its protocol are distributed. Public numerical reproduction uses the archived extractions. Re-downloading company reports is optional and requires network access and additional disk space. The omitted `flagged_page_snippets.csv` is recreated by the historical extraction script when requested; it is not used by the core estimators.

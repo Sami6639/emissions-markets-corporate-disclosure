@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-11-13T07:22:57.981687+00:00",
+  "source_rows": 758331,
+  "unique_field_keys": 757165,
+  "conflicting_field_keys": 583,
+  "duplicate_field_keys": 583,
+  "ambiguous_organizations": [],
+  "candidate_firm_years": 35888,
+  "period_conflicts": 0,
+  "eligible_nonfinancial_firm_years": 25002,
+  "primary_n": 24937,
+  "primary_firms": 1659,
+  "primary_countries": 50,
+  "china_n": 1113,
+  "china_firms": 132,
+  "policy_clusters": 31,
+  "wdi_missing": 227,
+  "firm_fiscal_year_duplicates": 0,
+  "fiscal_end_calendar_year_offsets": 108,
+  "years": [
+    2002,
+    2024
+  ],
+  "unit_counts": "{('TR.CO2DirectScope1', 'Tonne'): 19127, ('TR.CO2EmissionTotal', 'Tonne'): 21578, ('TR.CO2IndirectScope2', 'Tonne'): 18704, ('TR.CO2IndirectScope3', 'Tonne'): 14125}",
+  "negative_scope_records": {
+    "s1": 0,
+    "s2": 0,
+    "s3": 0,
+    "total": 0
+  },
+  "source_sha256": {
+    "lseg/2000_2025/environment_energy_metrics.parquet": "b266e0923ea0a2a232d3a5d9a77d63a92ef4cbfe4f612f2c22035127a21b1d86",
+    "lseg/2000_2025/reported_emissions.parquet": "2d544c23bafe5cbc6df3b95c996fef8a57ce4437fc236ab03ba5732d41e227db",
+    "raw/worldbank_carbon_pricing_2026.xlsx": "ee54b2ef4a08088e0ff631e98b00e0f7d255b8c445dd4c4df96886bdf3aa24bc",
+    "analysis_protocol.json": "ad87d964a72c4de60bc032def81ae62fe6556bf101e1d4980045047a26b78800"
+  }
+}

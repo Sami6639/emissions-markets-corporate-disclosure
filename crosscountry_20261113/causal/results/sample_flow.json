@@ -1,0 +1,25 @@
+{
+  "design_companies": 200,
+  "design_treated": 30,
+  "observed_rows": 1041,
+  "observed_companies": 180,
+  "balanced_rows": 534,
+  "balanced_companies": 89,
+  "balanced_treated": 24,
+  "provinces": 22,
+  "years": [
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023
+  ],
+  "initial_balanced_companies": 155,
+  "primary_estimation_rows": 480,
+  "primary_estimation_companies": 80,
+  "primary_estimation_treated": 22,
+  "primary_estimation_controls": 58,
+  "primary_estimation_provinces": 13,
+  "baseline_industry_treated": 27
+}

@@ -1,0 +1,36 @@
+{
+  "timestamp_utc": "2026-11-12T18:28:48.402188+00:00",
+  "plan_status": "Fixed before fitting any model on this new dataset. Published mean effects are already known; this is a secondary analysis, not prospectively registered trial.",
+  "new_question": "Does market assignment increase availability of monthly pollution evidence and the probability of documented below-benchmark PM emissions, when every eligible plant stays in the denominator?",
+  "precursor": "Greenstone, Pande, Ryan & Sudarshan 2025 QJE140(2):1003-1060 DOI10.1093/qje/qjaf009; data DOI10.7910/DVN/PDFDKR CC0 v1.2.",
+  "ranking": "QJE Scopus2024 Economics and Econometrics Q1, WUR journal browser https://library.wur.nl/WebQuery/tudbrowser/155 (publisher scientific result verified separately).",
+  "assignment": "Primary orig_assignment_gargee from original 318-plant master,160treated158control. Official assignment differs for 2 plants; official162/156 retained as sensitivity, not substituted silently.",
+  "population": "318 eligible plants. Original experiment began with342 then24 excluded before market; estimand conditional on eligible frame; recover full342 if available before claiming unrestricted ITT.",
+  "months": "Exactly precursor active sample flags: D_interregnum=0 & (post_mock1=1|post_mock2=1). Separate real-only excluding Mock1/Mock2 and postrestart sensitivity. No selecting time window by p-values.",
+  "coprimary": [
+    "monthly Rule0 Y_rule0 availability (includes authors within-week/month measurement reconstruction, excludes across-month imputation)",
+    "joint evidence outcome: Y_rule0 available AND <=1000kg per plant-month. 1000kg is a transparent analytical benchmark motivated by approximately one-tonne mean monthly cap per plant, NOT a legal limit or environmental safety threshold."
+  ],
+  "secondary": [
+    "Joint outcome thresholds500 and2000kg, all reported",
+    "Worst-case bounds on probability of below-benchmark monthly emissions, missing monthly outcomes allowed any binary state",
+    "Replicate published logPM effect under official assignment and Rule0,A,B",
+    "Original vs official assignment; complete-case292 vs full318; real-only periods; postrestart periods",
+    "Baseline covariate-adjusted and unadjusted plant-mean estimators"
+  ],
+  "estimation": "Collapse active-month binary outcomes to equal-weight plant means, include all318. OLS with baseline centered covariates from original paper and robustHC2 inference; unadjustedWelch check. Holm adjustment for 2 coprimary outcomes. No causal ML at this sample size.",
+  "missing": "Monthly absence coded0 for evidence availability and documented-below outcome ONLY; never interpreted as zero physical emissions. Bounds L_t=P(observed below), U_t=L_t+P(missing). Difference identified-set [L1-U0,U1-L0]. CIs for endpoints clustered at plant; Bonferroni simultaneous95% two-endpoint outer interval.",
+  "validation": [
+    "Unique plant-month IDs; assignment merge1:1; counts162/156official and160/158original; all318 in new denominator",
+    "Published regression logpoint -0.193,-0.282,-0.316 reproduced to rounding withsamecovariates andFE",
+    "Report every primary and sensitivity result; do not claim environmentalzeroeffect from nonsignificance."
+  ],
+  "scientific_limits": [
+    "Observed monthly mass series uses upstream calibration, truncation, and within-month reconstruction. Not raw complete physical emissions.",
+    "Monitoring availability is a process outcome; improvement cannot be labelled proven physical reduction by itself.",
+    "Original342sample and exact randomization mechanism need documentation; do not inventblockpermutation.",
+    "Novelty relative to original extensive reporting analysis must be confirmed before manuscript.",
+    "PM is notCO2 and notfullCSR; noclaims aboutglobalcarbonfootprint, profits, or causalcapitalinvestment."
+  ],
+  "publication_gate": "At most5 main tables; no manuscript until data, estimand, novelty and reproducibility gates checked. Findings may be valid secondary analysis even when insufficient for a standalone new journal article."
+}

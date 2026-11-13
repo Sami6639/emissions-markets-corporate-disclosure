@@ -1,0 +1,4 @@
+model,outcome,term,beta,se,lo,hi,p,n,firms,countries,clusters,df_cluster,absorbed_rank,slope_rank,effects,singleton_removed,iterations,weighted,linear_trends,out_of_range_fit
+2020 baseline versus 2021-2023,mention,did,0.4382623093156519,0.23020313870233416,-0.06330724271865829,0.9398318613499621,0.08118759877903708,308,77,1,13,12,139,1,firm + sector_year + province_year,0,19,False,False,0.38311688311688313
+"2019 baseline versus 2021-2023, same firms",mention,did,0.575930436266226,0.1793987604664078,0.18505411533561872,0.9668067571968333,0.007487529063000744,308,77,1,13,12,139,1,firm + sector_year + province_year,0,19,False,False,0.237012987012987
+"Original periods, same firms",mention,did,0.5804873587317331,0.16461568075777966,0.22182060153227806,0.939154115931188,0.004174597368145987,462,77,1,13,12,171,1,firm + sector_year + province_year,0,19,False,False,0.31385281385281383

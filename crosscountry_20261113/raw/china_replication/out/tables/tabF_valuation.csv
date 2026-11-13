@@ -1,0 +1,8 @@
+﻿specification,outcome,coef,se,t,p,n
+expansion vs never covered,tobinq,0.1468,0.0709,2.07,0.0384,2754
+placebo: covered since 2021 vs never covered,tobinq,0.13,0.0565,2.3,0.0215,2446
+within covered: expansion vs covered since 2021,tobinq,-0.0009,0.0591,-0.02,0.9875,1816
+expansion vs never covered,mtb,0.4982,0.1605,3.1,0.0019,2754
+placebo: covered since 2021 vs never covered,mtb,0.2985,0.1595,1.87,0.0613,2446
+within covered: expansion vs covered since 2021,mtb,0.18,0.1752,1.03,0.3043,1816
+carbon exposure / total assets,tobinq,-0.064,0.3017,-0.21,0.8321,157

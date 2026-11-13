@@ -1,0 +1,18 @@
+{
+ "recorded_before_new_design_outcome_estimation": true,
+ "external_preregistration": false,
+ "research_question": "Did entry into national emissions trading increase carbon-market-related content in annual reports of non-power firms with captive generation?",
+ "treatment": "Exact full legal listed-company name or same-name branch on official December 2020 national 2019-2020 allocation roster; chemical, paper and coal industries only.",
+ "control": "Same three industries, no roster match in source archive, no direct exact match, no known pilot-exchange record through 2020; absence of a subsidiary match remains a validation requirement.",
+ "exclude": "Power companies, steel/cement/metals expansion sectors; pilot headquarters Beijing Tianjin Shanghai Chongqing Hubei Guangdong Fujian; prior pilot-exchange records; unknown 2019 headquarters; ambiguous indirect ownership matches.",
+ "timing": "Roster published December 2020; national trading began July 2021. FY2020 annual reports filed in 2021 are transitional and excluded from primary estimation. Pre: FY2017-2019 reports filed before December 2020. Post: FY2021-2023 reports filed after national launch. FY2019-2020 retrospective compliance labels are NOT adoption dates.",
+ "primary_outcome": "Any carbon-market-related page under source restricted dictionary plus entity-name filter. This is content presence, not accuracy, general CSR or physical emissions.",
+ "primary_sample": "Companies with all 3 pre and 3 post reports observed; missing PDF or extraction is missing, never zero. Report date and extractable-text checks required. Unbalanced same-company sample is sensitivity.",
+ "primary_model": "Firm, sector-year and province-year fixed effects; treatment x post; no post-treatment financial controls; province-cluster CR1 t and restricted wild-cluster bootstrap, 9999 draws, seed 20261113. Report firm-cluster sensitivity.",
+ "event_study": "Year-specific treatment interactions, FY2019 reference, FY2020 excluded; pre coefficients FY2017 and FY2018; simultaneous confidence band and joint test. Passing a p-value test is not proof of parallel trends.",
+ "sensitivity": "Pre-treatment assets, leverage and ROA interacted with year; sector-specific estimates; no leave-one-out selection; restricted dictionary versus name-filter; count log1p; all results retained. Trend deviation robustness uses a stated annual differential drift budget.",
+ "measurement_validation": "Replicate archive strict-page counts for a fixed validation sample selected before outcome inspection; report all disagreements; inspect flagged passages. Extend FY2017-2018 directly from CNINFO filings using unchanged dictionaries.",
+ "decision": "No causal wording if treatment validation fails, source extraction disagreement materially changes outcomes, no pre-period support, clear pre-trend violation, or inference excludes economically meaningful effects only under favorable specification. Report estimates irrespective of sign/significance.",
+ "source_datasets": ["10.17632/c287n97rz5.1", "10.17632/d96g66wbjk.1"],
+ "notes": "Prior broad country associations and source-data descriptions were already inspected; this is an internal prospective record for a new design, not an original randomized experiment. The source archive's 2024 expansion and its one-pass FE estimator are not adopted."
+}

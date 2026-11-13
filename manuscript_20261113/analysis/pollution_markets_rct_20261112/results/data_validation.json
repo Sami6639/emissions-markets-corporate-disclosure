@@ -1,0 +1,20 @@
+{
+  "source": "Greenstone et al.(2025), Harvard Dataverse DOI10.7910/DVN/PDFDKR v1.2",
+  "original_experiment": false,
+  "eligible_plants": 318,
+  "original_assignment_counts": {
+    "1": 160,
+    "0": 158
+  },
+  "official_assignment_counts": {
+    "1.0": 162,
+    "0.0": 156
+  },
+  "assignment_discrepancies": 2,
+  "never_in_monthly_panel": 26,
+  "unrecorded_firm_months_not_dropped": 899,
+  "plant_month_keys_unique": true,
+  "physical_missing_values_replaced_by_zero": false,
+  "replication_coefficients_match": true,
+  "primary_models_all318": true
+}

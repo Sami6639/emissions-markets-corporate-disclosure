@@ -1,0 +1,13 @@
+{
+  "code": "603077",
+  "fiscal_year": 2021,
+  "pdf_page": 178,
+  "url": "https://static.cninfo.com.cn/finalpage/2022-03-15/1212566445.PDF",
+  "free_allocation_tonnes": 2194298,
+  "purchased_tonnes": 282877,
+  "surrendered_tonnes": 2477175,
+  "arithmetic_reconciles": true,
+  "interpretation": "Verified positive example only. Blank/dash fields cannot automatically be treated as absent disclosures. Extraction false negatives are not exhaustively validated.",
+  "sha256": "3d4df39da8a2c694c89ff6eee27dbdbab537c14b34fb77a15065f9598b96b7a2",
+  "bytes": 4316215
+}

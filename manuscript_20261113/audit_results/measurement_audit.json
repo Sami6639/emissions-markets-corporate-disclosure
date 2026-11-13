@@ -1,0 +1,17 @@
+{
+  "secondary_post_primary_audit": true,
+  "source_daily_rows": 242303,
+  "source_plants": 318,
+  "source_stacks": 337,
+  "source_days": 719,
+  "retained_plants_in_original_mass_pipeline": 292,
+  "retained_stacks": 310,
+  "whole_plants_removed_not_individual_stacks": true,
+  "monthly_availability_matches": true,
+  "mass_max_absolute_difference_kg": 0.0009765625,
+  "mass_max_relative_difference": 1.6816855463730462e-07,
+  "mass_reconstruction_within_float32_tolerance": true,
+  "terminal_window_days": 19,
+  "coverage_missing_after_full_join": 0,
+  "primary_estimands_unchanged": true
+}

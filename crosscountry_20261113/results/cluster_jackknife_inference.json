@@ -1,0 +1,9 @@
+{
+  "method": "delete-one-policy-family cluster jackknife, centered at mean leave-one-out coefficient",
+  "clusters": 28,
+  "se": 0.08909979089322924,
+  "beta": 0.03750635700453308,
+  "lo": -0.1453113129622068,
+  "hi": 0.22032402697127298,
+  "p": 0.6771252060334582
+}

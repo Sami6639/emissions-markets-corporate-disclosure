@@ -1,0 +1,44 @@
+[
+  {
+    "path": "manuscript_20261113/analysis/pollution_markets_rct_20261112/raw/Rule0_Panel.dta",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842090?format=original",
+    "bytes": 3886577,
+    "sha256": "79fe42e1276281a2739b24364b406263fc73d687481c79ac339ea20ab1262929"
+  },
+  {
+    "path": "manuscript_20261113/analysis/pollution_markets_rct_20261112/raw/RuleA_Panel.dta",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842062?format=original",
+    "bytes": 3628529,
+    "sha256": "8d53655f3a693b59eb361e9c37b3745629fbd4021b2199b034b158626bc26f8d"
+  },
+  {
+    "path": "manuscript_20261113/analysis/pollution_markets_rct_20261112/raw/RuleB_Panel.dta",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842102?format=original",
+    "bytes": 3628529,
+    "sha256": "279b83a54eeb101e14b102b7c23ddaa81492d296ea10f28b5f7c027a8aec4473"
+  },
+  {
+    "path": "manuscript_20261113/analysis/pollution_markets_rct_20261112/raw/RuleM_Panel.dta",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842034?format=original",
+    "bytes": 9362929,
+    "sha256": "b48427d1762d0066b8decee3a4ac0d1d0d6d3bc99d1292b23050cba35cd44d41"
+  },
+  {
+    "path": "manuscript_20261113/audit_sources/CEMS_2018-12-31 to 2021-04-03_StackDay_Balanced_HistCFs_Master337s_3sample2trunc.dta",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842124?format=original",
+    "bytes": 70081395,
+    "sha256": "486d53a137a750ef31c9c3ab7d1b231d8b48e32265d67c6187a1c2f2aa6e00f2"
+  },
+  {
+    "path": "manuscript_20261113/audit_sources/CEMS Panel Monthly (clean, PO).dta",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/10842198?format=original",
+    "bytes": 3579678,
+    "sha256": "ac4b76ccce0b723823f39cb0ce6fdb9a174fd84dc5e82ab71bfe9e6d868fd067"
+  },
+  {
+    "path": "crosscountry_20261113/causal/d96g66wbjk.dta",
+    "url": "https://data.mendeley.com/public-files/datasets/d96g66wbjk/files/497b3fc8-8538-4344-a59b-27cffdd8a19e/file_downloaded",
+    "bytes": 22861646,
+    "sha256": "199ee54f09b520e5e489df2d98bed9b4b2c70f86bb412f12dcbe403edf2f38ea"
+  }
+]
