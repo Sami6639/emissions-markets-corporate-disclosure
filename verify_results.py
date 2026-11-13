@@ -33,4 +33,13 @@ assert set(panel.year) == {2017, 2018, 2019, 2021, 2022, 2023}
 audit = json.loads((C / 'semantic_audit_summary.json').read_text())
 assert audit['n_reports'] == 46 and audit['unresolved'] == 0
 assert audit['category_counts'] == {'0': 24, 'Q': 10, 'F': 7, 'G': 5}
-print('Verified: Indian effects, Chinese coefficient and interval, 80-firm panel and semantic audit.')
+sensitivity = json.loads((C / 'classification_error_summary.json').read_text())
+assert sensitivity['smallest_budget_allowing_nonpositive_coefficient'] == 25
+assert sensitivity['lower_at_previous_budget'] > 0 > sensitivity['lower_at_threshold']
+close(sensitivity['baseline_beta'], row3.beta, 'Classification sensitivity baseline')
+bounds = pd.read_csv(C / 'classification_error_bounds.csv')
+five = bounds.query('max_recoded_reports == 5').iloc[0]
+close(five.lower_pp, 47.50076890386898, 'Five-recoding lower endpoint')
+close(five.upper_pp, 73.3165628658379, 'Five-recoding upper endpoint')
+assert all(v < 1e-9 for v in sensitivity['validation'].values())
+print('Verified: Indian effects, Chinese coefficient and interval, 80-firm panel, semantic audit and classification sensitivity.')

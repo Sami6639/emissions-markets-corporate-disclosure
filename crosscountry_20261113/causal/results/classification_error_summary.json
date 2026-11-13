@@ -1,0 +1,20 @@
+{
+  "status": "Post-primary fixed-design sensitivity; no outcome recoding applied to the main analysis",
+  "unit": "firm-year annual report",
+  "n": 480,
+  "firms": 80,
+  "observed_positive": 58,
+  "baseline_beta": 0.6079952772886262,
+  "smallest_budget_allowing_nonpositive_coefficient": 25,
+  "threshold_share_percent": 5.208333333333333,
+  "lower_at_previous_budget": 0.004381887516717309,
+  "lower_at_threshold": -0.01965831631361925,
+  "scope": "At most k arbitrary binary-outcome flips over all 480 rows; treatment and full design fixed",
+  "interpretation": "Exact deterministic coefficient envelopes, not confidence intervals or estimated misclassification rates",
+  "validation": {
+    "max_linear_program_error": 4.440892098500626e-16,
+    "max_full_dummy_OLS_refit_error": 6.661338147750939e-16,
+    "max_weight_difference_from_absorbed_regression": 8.158413181136304e-13
+  },
+  "formula": "beta=sum(w_i*y_i); delta_i=w_i*(1-2*y_i). Lower/upper add at most k negative/positive deltas in most adverse order."
+}

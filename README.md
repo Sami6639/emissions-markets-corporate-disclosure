@@ -27,7 +27,7 @@ python reproduce.py
 
 `prepare_inputs.py` retrieves seven large public data files directly from Harvard Dataverse and Mendeley Data and verifies their SHA-256 hashes. It requires network access once (about 117 MB); already verified files are reused. Smaller public inputs are included in the repository.
 
-`reproduce.py` then runs the Indian and Chinese numerical pipelines offline in dependency order, including selection bounds, measurement reconstruction, bootstrap inference, overlap weighting, small-cluster checks, policy-timing checks and semantic-audit summaries. It stops on the first failure and writes diagnostic output to `run_logs/`. These steps require no LSEG subscription or company-report downloads. Bootstrap calculations can take several minutes. The complete 12-step pipeline was executed successfully for this release.
+`reproduce.py` then runs the Indian and Chinese numerical pipelines offline in dependency order, including selection bounds, measurement reconstruction, bootstrap inference, overlap weighting, small-cluster checks, policy-timing checks, semantic-audit summaries and exact binary-outcome classification sensitivity. It stops on the first failure and writes diagnostic output to `run_logs/`. These steps require no LSEG subscription or company-report downloads. Bootstrap calculations can take several minutes. The original 12-step pipeline and the added classification-sensitivity step have each been executed and verified.
 
 To inspect the archived results or rebuild figures without repeating all estimations:
 

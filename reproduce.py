@@ -17,6 +17,7 @@ STEPS = [
     ('crosscountry_20261113/causal/08_referee_audit.py',),
     ('crosscountry_20261113/causal/09_timing_content_audit.py', '--timing'),
     ('crosscountry_20261113/causal/10_semantic_results.py',),
+    ('crosscountry_20261113/causal/11_classification_sensitivity.py',),
     ('crosscountry_20261113/causal/05_figures.py',),
     ('make_figures.py',),
     ('verify_results.py',),
